@@ -1,0 +1,19 @@
+{
+  "name": "payout-management-system",
+  "version": "1.0.0",
+  "description": "Low-Level Design & implementation of a User Payout Management System (advance payouts, reconciliation, final payouts, withdrawal restrictions, failed payout recovery).",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest --runInBand"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  }
+}
